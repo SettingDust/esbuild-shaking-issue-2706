@@ -1,0 +1,13 @@
+{
+  "name": "esbuild-shaking-issue-2706",
+  "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "build": "tsx build.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.10",
+    "dayjs": "^1.11.6",
+    "esbuild": "^0.15.16",
+    "tsx": "^3.12.1"
+  }
+}
